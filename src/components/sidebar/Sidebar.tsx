@@ -2,8 +2,8 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { useSelector } from "react-redux";
 import { RootState } from "@/redux/store";
+import { useSelector } from "react-redux";
 import {
   HomeIcon,
   BookOpenIcon,
