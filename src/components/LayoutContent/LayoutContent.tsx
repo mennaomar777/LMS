@@ -45,7 +45,7 @@ export default function LayoutContent({
 
       {shouldShowSidebar && !isMobileOpen && (
         <button
-          className="md:hidden fixed top-3 left-3 z-50 p-2 bg-blue-600 rounded shadow-lg flex justify-center items-center"
+          className="md:hidden fixed top-3 left-3 p-2 z-50 bg-blue-600 rounded shadow-lg flex justify-center items-center"
           onClick={() => setIsMobileOpen(true)}
           aria-label="Open sidebar"
         >
